@@ -1,7 +1,7 @@
 #!/bin/bash
 
-author=hc copy
-# github=https://github.com/hc/v2ray
+author=233boy copy
+# github=https://github.com/233boy/v2ray
 
 # bash fonts colors
 red='\e[31m'
@@ -133,7 +133,7 @@ _wget() {
 
 load core.sh
 # old sh ver
-is_old_dir=/etc/v2ray/hc
+is_old_dir=/etc/v2ray/233boy
 is_old_conf=/etc/v2ray/233blog_v2ray_backup.conf
 if [[ -f $is_old_conf && -d $is_old_dir ]]; then
     load old.sh
